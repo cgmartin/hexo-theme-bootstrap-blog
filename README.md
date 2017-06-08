@@ -178,6 +178,29 @@ All widgets are enabled and displayed by default. You can toggle them on/off wit
 ```
 ...then run `hexo new page about` to create the Markdown page.
 
+### SNS settings
+
+This theme provides Social Network Site settings.It can be displayed at the bottom of the page.
+
+Usage:
+opening `_config.yml`file,then fill in like belowing
+
+```
+# SNS settings
+# RSS:
+#replace yours
+weibo_username: 2106438273 
+zhihu_username: 
+github_username: perixiaowan  
+twitter_username: Perixiaowan
+facebook_username: xiaowanxxww
+linkedin_username: xiaowan-liu-90165118
+RSS: atom.xml
+```
+
+### statistics（PV&UV）
+This theme provides simple statistics which contain page views and user views.
+
 ### Bootstrap Paginator Helper
 
 A custom `bs_paginator()` helper is used to produce [Bootstrap-compatible pagination markup](http://getbootstrap.com/components/#pagination). It is a drop-in replacement for Hexo's built-in `paginator()`.

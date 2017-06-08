@@ -33,3 +33,13 @@ twitter_id:
 google_plus:
 fb_admins:
 fb_app_id:
+
+# SNS settings
+# RSS:
+#replace yours
+weibo_username: 
+zhihu_username: 
+github_username:   
+twitter_username: 
+facebook_username: 
+RSS: atom.xml
