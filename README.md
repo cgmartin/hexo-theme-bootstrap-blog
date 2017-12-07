@@ -211,7 +211,7 @@ The Landscape Stylus styles have been replaced with standard CSS files which ove
 
 - [X] Add i18n functionality to template.
 - [X] Edit disqus_shortname to disqus_sitename. Because If person who have many disqus sites, will show first disqus sites/comments.
-- [X] Add disqus comment counter for home page. For example, "Comments (121)".
+- [ ] Add disqus comment counter for home page. For example, "Comments (121)".
 - [ ] Add RSS feed functionality.
 
 ## License
