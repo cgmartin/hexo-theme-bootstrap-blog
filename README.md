@@ -111,6 +111,18 @@ theme_config:
 
 ## Features
 
+### NEW: Vanilla javascript Disqus add-on
+
+You just add your disqus sitename to under the theme folder's `_config.yml` that's it.
+
+```yml
+disqus_sitename: linuxkafasi
+```
+
+### NEW: Hexo's I18N Compatibility
+
+You can manage your website with multiple-languages. You just add your language yml files, that's it.
+
 ### Front-Matter Extras
 
 Optional settings in the front-matter can be added for various effects:
@@ -194,6 +206,13 @@ A custom `bs_paginator()` helper is used to produce [Bootstrap-compatible pagina
 The [default Landscape Hexo theme](https://github.com/hexojs/hexo-theme-landscape) was used as the starting point and heavily edited for this theme.
 
 The Landscape Stylus styles have been replaced with standard CSS files which override `bootstrap.min.css`. Stylus is used only for [bundling the CSS files](./source/css/styles.styl). Feel free to convert the CSS to your pre-processor of choice (Stylus, LESS, Sass, etc.).
+
+## TODO
+
+- [X] Add i18n functionality to template.
+- [X] Edit disqus_shortname to disqus_sitename. Because If person who have many disqus sites, will show first disqus sites/comments.
+- [X] Add disqus comment counter for home page. For example, "Comments (121)".
+- [ ] Add RSS feed functionality.
 
 ## License
 
