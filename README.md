@@ -111,7 +111,7 @@ theme_config:
 
 ## Features
 
-### NEW: Vanilla javascript Disqus add-on
+### :tada: :confetti_ball: NEW :tada: :confetti_ball: : Vanilla javascript Disqus add-on
 
 You just add your disqus sitename to under the theme folder's `_config.yml` that's it.
 
@@ -119,7 +119,7 @@ You just add your disqus sitename to under the theme folder's `_config.yml` that
 disqus_sitename: linuxkafasi
 ```
 
-### NEW: Hexo's I18N Compatibility
+### :tada: :confetti_ball: NEW :tada: :confetti_ball: : Hexo's I18N Compatibility
 
 You can manage your website with multiple-languages. You just add your language yml files, that's it.
 
