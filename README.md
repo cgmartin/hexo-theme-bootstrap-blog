@@ -75,6 +75,9 @@ google_analytics:
 favicon:
 twitter:
 google_plus:
+fb_admins:
+fb_app_id:
+disqus_sitename:
 ```
 
 - **navbar_brand** - The HTML content for an optional ["navbar-brand"](http://getbootstrap.com/components/#navbar-brand-image). Can be text or an image. `false` to hide.
@@ -88,6 +91,9 @@ google_plus:
 - **favicon** - Favicon path (ie. '/favicon.ico')
 - **twitter_id** - Twitter ID of the author (ie. `@c_g_martin`)
 - **google_plus** - Google+ profile link
+- **fb_admins** - MISSING DOC
+- **fb_app_id** - MISSING DOC
+- **disqus_sitename** - `www._disqus_sitename_.disqus.com`
 
 Instead of editing the layout's configuration file directly, you can override the theme settings from your project's root `_config.yml`, ie.:
 ```yml
