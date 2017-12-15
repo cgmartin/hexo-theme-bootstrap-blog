@@ -10,3 +10,5 @@ archive_a: Архив
 archive_b: "Архив: %s"
 page: Страница %d
 recent_posts: Последние записи
+about: About
+share: Share
