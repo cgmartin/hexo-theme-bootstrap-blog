@@ -122,7 +122,7 @@ theme_config:
 You just add your disqus sitename to under the theme folder's `_config.yml` that's it.
 
 ```yml
-disqus_sitename: linuxkafasi
+disqus_sitename: your_sitename
 ```
 
 ### :tada: :confetti_ball: NEW :tada: :confetti_ball: : Hexo's I18N Compatibility
