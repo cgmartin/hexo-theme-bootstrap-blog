@@ -97,7 +97,7 @@ github:
 - **fb_admins** - MISSING DOC
 - **fb_app_id** - MISSING DOC
 - **disqus_sitename** - `www._disqus_sitename_.disqus.com`
-# For social media icons
+### For social media icons
 - **twitter** - https://twitter.com/YOUR_NAME
 - **instagram** - https://instagram.com/YOUR_NAME
 - **github** - https://github.com/YOUR_NAME
