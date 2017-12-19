@@ -78,6 +78,9 @@ google_plus:
 fb_admins:
 fb_app_id:
 disqus_sitename:
+twitter:
+instagram:
+github:
 ```
 
 - **navbar_brand** - The HTML content for an optional ["navbar-brand"](http://getbootstrap.com/components/#navbar-brand-image). Can be text or an image. `false` to hide.
@@ -94,9 +97,10 @@ disqus_sitename:
 - **fb_admins** - MISSING DOC
 - **fb_app_id** - MISSING DOC
 - **disqus_sitename** - `www._disqus_sitename_.disqus.com`
+# For social media icons
 - **twitter** - https://twitter.com/YOUR_NAME
 - **instagram** - https://instagram.com/YOUR_NAME
-- **github** - # https://github.com/BerkhanBerkdemir
+- **github** - https://github.com/YOUR_NAME
 
 Instead of editing the layout's configuration file directly, you can override the theme settings from your project's root `_config.yml`, ie.:
 ```yml
@@ -205,9 +209,9 @@ A custom `bs_paginator()` helper is used to produce [Bootstrap-compatible pagina
 
 ```
 <%- bs_paginator({
-      prev_text: '<i class="fa fa-chevron-left"></i> Prev',
-      next_text: 'Next <i class="fa fa-chevron-right"></i>'
-    }) %>
+  prev_text: '<i class="fa fa-chevron-left"></i> Prev',
+  next_text: 'Next <i class="fa fa-chevron-right"></i>'
+}) %>
 ```
 
 ## Development
@@ -221,7 +225,7 @@ The Landscape Stylus styles have been replaced with standard CSS files which ove
 - [X] Add i18n functionality to template.
 - [X] Edit disqus_shortname to disqus_sitename. Because If person who have many disqus sites, will show first disqus sites/comments.
 - [ ] Add disqus comment counter for home page. For example, "Comments (121)".
-- [ ] Add RSS feed functionality.
+- [X] Add RSS feed functionality.
 
 ## License
 
