@@ -30,11 +30,11 @@
 
     <footer class="article-footer">
       <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" class="article-share-link">
-        <i class="fa fa-share"></i> Share
+        <i class="fa fa-share"></i> <%= __('share') %>
       </a>
-      <% if (post.comments && config.disqus_shortname){ %>
+      <% if (post.comments && theme.disqus_sitename){ %>
         <a href="<%- post.permalink %>#disqus_thread" class="article-comment-link">
-          <i class="fa fa-comment"></i> Comments
+          <i class="fa fa-comment"></i> <%= __('comment') %> Comments
         </a>
       <% } %>
       <%- partial('post/tag') %>
@@ -45,7 +45,7 @@
   <% } %>
 </article>
 
-<% if (!index && post.comments && config.disqus_shortname){ %>
+<% if (!index && post.comments && theme.disqus_sitename){ %>
 <section id="comments">
   <div id="disqus_thread">
     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

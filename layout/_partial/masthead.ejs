@@ -22,13 +22,29 @@
         <% } %>
       </ul>
 
-      <!--
-      <ul class="nav navbar-nav navbar-right">
         <% if (theme.rss){ %>
-          <li><a href="<%- theme.rss %>" title="RSS Feed"><i class="fa fa-rss"></i></a></li>
-        <% } %>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="<%- theme.rss %>" title="RSS Feed"><i class="fa fa-rss"></i></a></li>
       </ul>
-      -->
+        <% } %>
+
+        <% if (theme.instagram){ %>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://instagram.com/<%- theme.instagram %>" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+      </ul>
+        <% } %>
+
+        <% if (theme.twitter){ %>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://twitter.com/<%- theme.twitter %>" title="Instagram"><i class="fa fa-twitter"></i></a></li>
+      </ul>
+        <% } %>
+
+        <% if (theme.github){ %>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://github.com/<%- theme.github %>" title="Instagram"><i class="fa fa-github"></i></a></li>
+      </ul>
+        <% } %>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>

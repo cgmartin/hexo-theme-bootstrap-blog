@@ -73,8 +73,14 @@ about_widget_content: >
 # Miscellaneous
 google_analytics:
 favicon:
-twitter:
+twitter_id:
 google_plus:
+fb_admins:
+fb_app_id:
+disqus_sitename:
+twitter:
+instagram:
+github:
 ```
 
 - **navbar_brand** - The HTML content for an optional ["navbar-brand"](http://getbootstrap.com/components/#navbar-brand-image). Can be text or an image. `false` to hide.
@@ -88,6 +94,13 @@ google_plus:
 - **favicon** - Favicon path (ie. '/favicon.ico')
 - **twitter_id** - Twitter ID of the author (ie. `@c_g_martin`)
 - **google_plus** - Google+ profile link
+- **fb_admins** - MISSING DOC
+- **fb_app_id** - MISSING DOC
+- **disqus_sitename** - `www._disqus_sitename_.disqus.com`
+### For social media icons
+- **twitter** - https://twitter.com/YOUR_NAME
+- **instagram** - https://instagram.com/YOUR_NAME
+- **github** - https://github.com/YOUR_NAME
 
 Instead of editing the layout's configuration file directly, you can override the theme settings from your project's root `_config.yml`, ie.:
 ```yml
@@ -110,6 +123,28 @@ theme_config:
 ```
 
 ## Features
+
+### :tada: :confetti_ball: NEW: :tada: :confetti_ball: : Social Media Icons
+
+You can add your social media accounts links to your navigation bar with icons. Just you have to edit `_config` file.
+
+```yml
+twitter:
+instagram:
+github:
+```
+
+### Vanilla javascript Disqus add-on
+
+You just add your disqus sitename to under the theme folder's `_config.yml` that's it.
+
+```yml
+disqus_sitename: your_sitename
+```
+
+### Hexo's I18N Compatibility
+
+You can manage your website with multiple-languages. You just add your language yml files, that's it.
 
 ### Front-Matter Extras
 
@@ -184,9 +219,9 @@ A custom `bs_paginator()` helper is used to produce [Bootstrap-compatible pagina
 
 ```
 <%- bs_paginator({
-      prev_text: '<i class="fa fa-chevron-left"></i> Prev',
-      next_text: 'Next <i class="fa fa-chevron-right"></i>'
-    }) %>
+  prev_text: '<i class="fa fa-chevron-left"></i> Prev',
+  next_text: 'Next <i class="fa fa-chevron-right"></i>'
+}) %>
 ```
 
 ## Development
@@ -194,6 +229,13 @@ A custom `bs_paginator()` helper is used to produce [Bootstrap-compatible pagina
 The [default Landscape Hexo theme](https://github.com/hexojs/hexo-theme-landscape) was used as the starting point and heavily edited for this theme.
 
 The Landscape Stylus styles have been replaced with standard CSS files which override `bootstrap.min.css`. Stylus is used only for [bundling the CSS files](./source/css/styles.styl). Feel free to convert the CSS to your pre-processor of choice (Stylus, LESS, Sass, etc.).
+
+## TODO
+
+- [X] Add i18n functionality to template.
+- [X] Edit disqus_shortname to disqus_sitename. Because If person who have many disqus sites, will show first disqus sites/comments.
+- [ ] Add disqus comment counter for home page. For example, "Comments (121)".
+- [X] Add RSS feed functionality.
 
 ## License
 
