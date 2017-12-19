@@ -73,7 +73,7 @@ about_widget_content: >
 # Miscellaneous
 google_analytics:
 favicon:
-twitter:
+twitter_id:
 google_plus:
 fb_admins:
 fb_app_id:
@@ -124,7 +124,17 @@ theme_config:
 
 ## Features
 
-### :tada: :confetti_ball: NEW :tada: :confetti_ball: : Vanilla javascript Disqus add-on
+### :tada: :confetti_ball: NEW: :tada: :confetti_ball: : Social Media Icons
+
+You can add your social media accounts links to your navigation bar with icons. Just you have to edit `_config` file.
+
+```yml
+twitter:
+instagram:
+github:
+```
+
+### Vanilla javascript Disqus add-on
 
 You just add your disqus sitename to under the theme folder's `_config.yml` that's it.
 
@@ -132,7 +142,7 @@ You just add your disqus sitename to under the theme folder's `_config.yml` that
 disqus_sitename: your_sitename
 ```
 
-### :tada: :confetti_ball: NEW :tada: :confetti_ball: : Hexo's I18N Compatibility
+### Hexo's I18N Compatibility
 
 You can manage your website with multiple-languages. You just add your language yml files, that's it.
 
