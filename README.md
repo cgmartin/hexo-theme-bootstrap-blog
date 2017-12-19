@@ -94,6 +94,9 @@ disqus_sitename:
 - **fb_admins** - MISSING DOC
 - **fb_app_id** - MISSING DOC
 - **disqus_sitename** - `www._disqus_sitename_.disqus.com`
+- **twitter** - https://twitter.com/YOUR_NAME
+- **instagram** - https://instagram.com/YOUR_NAME
+- **github** - # https://github.com/BerkhanBerkdemir
 
 Instead of editing the layout's configuration file directly, you can override the theme settings from your project's root `_config.yml`, ie.:
 ```yml
