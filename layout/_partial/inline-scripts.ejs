@@ -14,6 +14,21 @@
 </script>
 <% } %>
 
+<? if (theme.twitter_pixel_id && theme.twitter_std_event) { ?>
+<!-- Twitter universal website tag code -->
+<script>
+var twpID = '<?= theme.twitter_pixel_id ?>'
+var twstdEvent = '<?= theme.twitter_std_event ?>'
+!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+// Insert Twitter Pixel ID and Standard Event data below
+twq('init', twpID);
+twq('track', twstdEvent);
+</script>
+<!-- End Twitter universal website tag code -->
+<? } ?>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js" integrity="sha256-ImQvICV38LovIsvla2zykaCTdEh1Z801Y+DSop91wMU=" crossorigin="anonymous"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo=" crossorigin="anonymous"></script>

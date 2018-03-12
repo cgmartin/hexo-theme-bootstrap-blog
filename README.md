@@ -72,6 +72,12 @@ about_widget_content: >
 
 # Miscellaneous
 google_analytics:
+# DOC:
+  # https://business.twitter.com/en/help/campaign-setup/campaign-targeting/tailored-audiences-from-web.html
+# EXAMPLE: twitter_pixel_id: 'xx11x'
+twitter_pixel_id:
+# EXAMPLE: twitter_std_event: 'PageView'
+twitter_std_event:
 favicon:
 twitter_id:
 google_plus:
@@ -124,7 +130,12 @@ theme_config:
 
 ## Features
 
-### :tada: :confetti_ball: NEW: :tada: :confetti_ball: : Social Media Icons
+### :tada: :confetti_ball: NEW: :tada: :confetti_ball: Twitter Universal Website Tag
+
+You can add your twitter pixel ID and it will handle your conversation tracking.
+Just follow [`_config.yml`](_config.yml) documentation.
+
+### Social Media Icons
 
 You can add your social media accounts links to your navigation bar with icons. Just you have to edit `_config` file.
 

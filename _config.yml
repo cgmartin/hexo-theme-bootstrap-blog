@@ -28,6 +28,12 @@ show_count: true
 
 # Miscellaneous
 google_analytics:
+# DOC:
+  # https://business.twitter.com/en/help/campaign-setup/campaign-targeting/tailored-audiences-from-web.html
+# EXAMPLE: twitter_pixel_id: 'xx11x'
+twitter_pixel_id:
+# EXAMPLE: twitter_std_event: 'PageView'
+twitter_std_event:
 favicon:
 twitter_id:
 google_plus:
